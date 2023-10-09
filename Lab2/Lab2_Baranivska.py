@@ -7,7 +7,7 @@ x = data.iloc[:, 1:2]
 y = data.iloc[:, 0:1]
 
 plt.figure(figsize=(12, 6))  # 960x540 пікселів
-plt.scatter(x, y, s=10, c='purple', marker='')
+plt.scatter(x, y, s=10, c='purple', marker='>')
 
 # Задаємо заголовок та підписи до осей
 plt.title('Графік точок')
